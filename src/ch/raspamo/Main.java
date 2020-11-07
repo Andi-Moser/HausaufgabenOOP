@@ -26,7 +26,7 @@ public class Main {
 
             String className = callables.get(choice);
 
-            Output.subtitle("Start Program " + className, Colors.ANSI_RED);
+            Output.subtitle("Start Program " + className);
 
             Class<?> selectedClass = Class.forName("ch.raspamo.Exercises." + className);
 

@@ -6,7 +6,8 @@ import java.awt.*;
 
 public class Table {
     public static void print(java.lang.String[] elements, java.lang.String title, Boolean showTotalCount) {
-        Output.print(title, Colors.ANSI_CYAN);
+        Output.println();
+        Output.print(title, Colors.ANSI_PURPLE);
         Output.println();
         if (showTotalCount) {
             Output.println("Anzahl Einträge: " + elements.length);

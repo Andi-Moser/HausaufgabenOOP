@@ -1,6 +1,7 @@
 package ch.raspamo.Exercises;
 
 import ch.raspamo.Callable;
+import ch.raspamo.Console.Colors;
 import ch.raspamo.Console.Output;
 import ch.raspamo.Console.ProgressBar;
 import ch.raspamo.Console.Table;
@@ -15,6 +16,11 @@ public class Hausaufgabe01 implements Callable {
 
         String[] args = state.getArgs();
 
-        Table.print(args, "Argumente");
+        if (args.length > 0) {
+            Table.print(args, "Argumente");
+        }
+        else {
+            Output.println("Keine Argumente vorhanden!", Colors.ANSI_RED);
+        }
     }
 }
