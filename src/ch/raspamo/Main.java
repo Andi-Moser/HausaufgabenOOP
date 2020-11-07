@@ -1,9 +1,6 @@
 package ch.raspamo;
 
-import ch.raspamo.Console.Choice;
-import ch.raspamo.Console.Colors;
-import ch.raspamo.Console.Output;
-import ch.raspamo.Console.ProgressBar;
+import ch.raspamo.Console.*;
 import ch.raspamo.Exception.IllegalCallableException;
 import ch.raspamo.Util.Random;
 

@@ -17,6 +17,8 @@ public class Output {
         println(message, Colors.ANSI_WHITE);
     }
 
+    public static void println() { println(""); }
+
     public static void subtitle(String message, String color) {
         println(message, color);
         printSeperator(message, color);
